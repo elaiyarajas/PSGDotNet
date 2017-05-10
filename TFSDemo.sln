@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFSDemo", "TFSDemo.csproj", "{BDF3431E-312F-4AF4-B7B1-B98EDDF31445}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2738D1FC-666E-48F5-9E2D-D4D9EEC8F606}"
+	ProjectSection(SolutionItems) = preProject
+		TFSDemo.testsettings = TFSDemo.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFSDemoUnitTestProject", "..\TFSDemoUnitTestProject\TFSDemoUnitTestProject.csproj", "{8958ED7A-F6F9-4355-9DB1-A8C01B18B667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF3431E-312F-4AF4-B7B1-B98EDDF31445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF3431E-312F-4AF4-B7B1-B98EDDF31445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF3431E-312F-4AF4-B7B1-B98EDDF31445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF3431E-312F-4AF4-B7B1-B98EDDF31445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8958ED7A-F6F9-4355-9DB1-A8C01B18B667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8958ED7A-F6F9-4355-9DB1-A8C01B18B667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8958ED7A-F6F9-4355-9DB1-A8C01B18B667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8958ED7A-F6F9-4355-9DB1-A8C01B18B667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://chnvel2tfs01:8080/tfs/platformsolutions
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TFSDemo.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\TFSDemoUnitTestProject\\TFSDemoUnitTestProject.csproj
+		SccProjectName2 = ../TFSDemoUnitTestProject
+		SccLocalPath2 = ..\\TFSDemoUnitTestProject
+	EndGlobalSection
+EndGlobal

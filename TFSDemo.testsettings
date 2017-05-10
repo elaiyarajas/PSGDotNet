@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="TFSDemoTest" id="3101f77d-dede-4768-a119-ca70bad35104" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="bin\Debug\" />
+  </Deployment>
+  <Execution hostProcessPlatform="MSIL">
+    <Hosts skipUnhostableTests="false">
+      <AspNet name="ASP.NET" executionType="WebDev" />
+    </Hosts>
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution>
+          <TestDirectory useLoadContext="true" />
+          <RuntimeResolution>
+            <Directory path="D:\TFSTest\Release" includeSubDirectories="true" />
+          </RuntimeResolution>
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="Execution Agents">
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- Configurations that affect the Test Framework 
+
+<RunConfiguration>
+    <MaxCpuCount>1</MaxCpuCount>
+    
+    -->
+
+    <!-- Path relative to solution directory 
+    <ResultsDirectory>.\TestResults</ResultsDirectory>
+-->
+    <!-- [x86] | x64    
+      - You can also change it from menu Test, Test Settings, Default Processor Architecture 
+    <TargetPlatform>x86</TargetPlatform>
+-->
+<!-- Framework35 | [Framework40] | Framework45 
+    <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+-->
+<!-- Path to Test Adapters 
+    <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
+  </RunConfiguration>
+-->
+<!-- Configurations for data collectors 
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Configuration>
+          <CodeCoverage>
+            <ModulePaths>
+              <Exclude>
+                <ModulePath>.*CPPUnitTestFramework.*</ModulePath>
+              </Exclude>
+            </ModulePaths>
+-->
+            <!-- We recommend you do not change the following values: 
+            <UseVerifiableInstrumentation>True</UseVerifiableInstrumentation>
+            <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
+            <CollectFromChildProcesses>True</CollectFromChildProcesses>
+            <CollectAspDotNet>False</CollectAspDotNet>
+
+          </CodeCoverage>
+        </Configuration>
+      </DataCollector>
+
+    </DataCollectors>
+  </DataCollectionRunSettings>
+-->
+<!-- Parameters used by tests at runtime
+  <TestRunParameters>
+    <Parameter name="webAppUrl" value="http://localhost" />
+    <Parameter name="webAppUserName" value="Admin" />
+    <Parameter name="webAppPassword" value="Password" />
+  </TestRunParameters>
+ -->
+  <!-- Adapter Specific sections -->
+
+  <!-- MSTest adapter 
+  <MSTest>
+    <MapInconclusiveToFailed>True</MapInconclusiveToFailed>
+    <CaptureTraceOutput>false</CaptureTraceOutput>
+    <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
+    <DeploymentEnabled>False</DeploymentEnabled>
+    <AssemblyResolution>
+      <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/>
+    </AssemblyResolution>
+  </MSTest>
+
+</RunSettings>-->
